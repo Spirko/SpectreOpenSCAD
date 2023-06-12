@@ -3,7 +3,7 @@ OpenSCAD code for the Spectre tile of "A Chiral Aperiodic Monotile" by David Smi
 
 The Spectre shape is an Einstein tile, capable of aperiodic tiling of the plane.
 References:
-* https://arxiv.org/pdf/2305.17743.pdf - 
+* https://arxiv.org/pdf/2305.17743.pdf
 * https://en.wikipedia.org/wiki/Einstein_problem
 
 [Spectre.scad](Spectre.scad) - contains modules to generate polygon of the basic Spectre tile (before modifying to forbid reflection).
