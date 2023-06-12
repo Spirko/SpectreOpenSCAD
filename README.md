@@ -6,6 +6,6 @@ References:
 * https://arxiv.org/pdf/2305.17743.pdf
 * https://en.wikipedia.org/wiki/Einstein_problem
 
-[Spectre.scad](Spectre.scad) - contains modules to generate polygon of the basic Spectre tile (before modifying to forbid reflection).
-* spectre() - Straight sides like Figure 1.1, left
+[Spectre.scad](Spectre.scad) - contains modules to generate polygon of the basic Spectre tile
+* spectre() - Straight sides like Figure 1.1, left.
 * spectre2(n) - Curved sides like Figure 1.1, right.  n is optional.
