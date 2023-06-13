@@ -7,6 +7,7 @@
 //               Craig S. Kaplan, and Chaim Goodman-Strauss
 //      Figure 1.1, left
 
+linear_extrude(1) scale(10) spectre2();
 
 // According to the paper, each side is the same length.
 // Each side is along an axis or at a 30 degree angle to an axis.
@@ -29,12 +30,6 @@ points = [ for(i=0, curpos=[0,0];
                i<len(kvals);
                curpos=curpos+displacements[i], i=i+1)
              curpos ];
-echo(len(displacements));
-echo(displacements);
-echo(len(points));
-echo(points);
-
-spectre2();
 
 module spectre() {
   polygon(points);
